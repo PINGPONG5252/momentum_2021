@@ -1,0 +1,40 @@
+.plan_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.todo_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form input {
+  display: flex;
+  width: 700px;
+  height: 35px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  border: none;
+  background: none;
+}
+
+#todo-form ::placeholder {
+  opacity: 0;
+}
+
+.todo_row-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo_row-bar span {
+  display: block;
+  width: 800px;
+  height: 3px;
+  background-color: white;
+}
