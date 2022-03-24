@@ -34,3 +34,8 @@ h1 {
 .hidden {
   display: none;
 }
+
+#quote {
+  margin-top: 10px;
+  font-weight: 600;
+}
